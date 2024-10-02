@@ -12,3 +12,49 @@ img,
 video {
   display: block;
 }
+body {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ff844c;
+  width: 590px;
+  margin: 50px;
+}
+.number {
+  font-size: 35px;
+  line-height: 24px;
+}
+
+.day {
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: 200;
+  opacity: 60%;
+}
+
+.white-background {
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 24px;
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.spacing {
+  display: flex;
+  padding: 10px 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
